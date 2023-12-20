@@ -34,7 +34,22 @@
 	// "postCreateCommand": "cat /etc/os-release",
 
 	// Configure tool-specific properties.
-	// "customizations": {},
+	"customizations": {
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"streetsidesoftware.code-spell-checker", 
+				"Vue.vscode-typescript-vue-plugin", 
+				"Vue.volar",
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"vscode-icons-team.vscode-icons",
+				"eamodio.gitlens",
+				"formulahendry.auto-close-tag",
+				"BracketPairColorDLW.bracket-pair-color-dlw"
+			]
+		  }
+	},
 
 	// Uncomment to connect as an existing user other than the container default. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "devcontainer"
